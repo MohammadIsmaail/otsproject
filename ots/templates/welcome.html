@@ -1,0 +1,17 @@
+{% extends 'main.html' %}
+
+{% block title %} Welcome to Online Testing System {% endblock%}
+
+{% block top%}
+<a href="{% url 'ots:registrationForm' %}">New Candidate Registration</a><br>
+
+<a href="{% url 'ots:login' %}">Login</a>
+{% endblock %}
+
+<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consectetur!</h1>
+
+
+{% block content %}
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis repudiandae 
+    laborum nesciunt temporibus necessitatibus, inventore quas perferendis illum saepe recusandae!</p>
+{% endblock %}
